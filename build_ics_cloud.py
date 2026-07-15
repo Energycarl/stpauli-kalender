@@ -17,7 +17,14 @@ from markdownify import markdownify as to_md
 import stpauli_ics as core
 import extract_urls as ex
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; StPauliKalenderBot/1.0)"}
+HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                   "AppleWebKit/537.36 (KHTML, like Gecko) "
+                   "Chrome/126.0.0.0 Safari/537.36"),
+    "Accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,"
+               "image/avif,image/webp,*/*;q=0.8"),
+    "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
+}
 INPUT_DIR = "inputs"
 OUT = "st_pauli_tickets.ics"
 
@@ -63,6 +70,10 @@ def main():
             continue
         save(i, "list", url, text)
         saved_listing_texts.append(text)
+        print(f"[listing] {url}  len={len(text)}  "
+              f"begegnungen={'## Nächste Begegnungen' in text}  "
+              f"ticket-infos={'ticket-infos' in text}  "
+              f"spieltagsinfos={'Spieltagsinfos' in text}")
 
     # 2) Detail-URLs aus den Uebersichtsseiten ermitteln
     detail = set()
@@ -77,6 +88,10 @@ def main():
             slug = u.rstrip("/").rsplit("/", 1)[-1].lower()
             if "spiel" in slug or "pokal" in slug:
                 detail.add(u)
+
+    print(f"[detail] {len(detail)} Detail-URLs gefunden:")
+    for u in sorted(detail):
+        print(f"    - {u}")
 
     # 3) Detailseiten holen
     for i, url in enumerate(sorted(detail)):
