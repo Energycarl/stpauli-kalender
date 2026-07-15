@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Rot-Weiß Essen – St. Pauli · Auswärts (Pokal)
 DTSTART:20260823T160000Z
 DTEND:20260823T180000Z
-DTSTAMP:20260715T101611Z
+DTSTAMP:20260715T102326Z
 UID:720180c3ff16@stpauli-tickets
 DESCRIPTION:Wettbewerb/Art: Pokal\nTicket-Infos: https://www.stpauli-fanla
  den.de/2026/07/07/dfb-pokal-auswaertsspiel-bei-rot-weiss-essen-am-23-08-um
@@ -27,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:📝 Fanladen-Bestellung öffnet: Rot-Weiß Essen (Auswärts)
 DTSTART:20260710T100000Z
 DTEND:20260710T103000Z
-DTSTAMP:20260715T101611Z
+DTSTAMP:20260715T102326Z
 UID:7b2ccb728618@stpauli-tickets
 DESCRIPTION:Spiel: Rot-Weiß Essen – St. Pauli am Sun 23.08.2026 18:00\n
  Infos: https://www.stpauli-fanladen.de/2026/07/07/dfb-pokal-auswaertsspiel
@@ -47,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:⏳ Fanladen-Bestellschluss: Rot-Weiß Essen (Auswärts)
 DTSTART:20260719T100000Z
 DTEND:20260719T103000Z
-DTSTAMP:20260715T101611Z
+DTSTAMP:20260715T102326Z
 UID:9dd9c01e20d1@stpauli-tickets
 DESCRIPTION:Spiel: Rot-Weiß Essen – St. Pauli am Sun 23.08.2026 18:00\n
  Infos: https://www.stpauli-fanladen.de/2026/07/07/dfb-pokal-auswaertsspiel
