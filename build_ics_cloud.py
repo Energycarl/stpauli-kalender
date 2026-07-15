@@ -12,6 +12,8 @@ import os
 import shutil
 import sys
 import requests
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 from markdownify import markdownify as to_md
 
 import stpauli_ics as core
@@ -44,8 +46,14 @@ def title_of(html: str) -> str:
 
 def as_webfetch(url: str, html: str) -> str:
     """Baut Text im Format der web_fetch-Ausgabe: Titelzeile, URL-Zeile(n),
-    dann Markdown-Koerper. So funktionieren die vorhandenen Parser unveraendert."""
-    body = to_md(html, heading_style="ATX", strip=["script", "style"])
+    dann Markdown-Koerper. Alle Links/Bilder werden vorher absolut gemacht,
+    damit die vorhandenen Parser (die absolute https-URLs erwarten) greifen."""
+    soup = BeautifulSoup(html, "html.parser")
+    for a in soup.find_all("a", href=True):
+        a["href"] = urljoin(url, a["href"])
+    for img in soup.find_all("img", src=True):
+        img["src"] = urljoin(url, img["src"])
+    body = to_md(str(soup), heading_style="ATX", strip=["script", "style"])
     return f"{title_of(html)}\n{url}\n→ {url}\nContent-Type: text/html\n\n{body}"
 
 
