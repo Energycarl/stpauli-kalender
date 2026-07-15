@@ -507,26 +507,26 @@ def build_calendar(matches: list[dict]) -> Calendar:
             if mt["infos_url"]:
                 sdesc.append(f"Infos: {mt['infos_url']}")
             ev2.add("description", "\n".join(sdesc))
-            is_fanladen = s["kind"].startswith("fanladen")
-            if s["hour"] is not None or is_fanladen:
+            kind = s["kind"]
+            if s["hour"] is not None or kind.startswith("fanladen"):
                 hh = s["hour"] if s["hour"] is not None else 12
                 mm = s["minute"] if s["hour"] is not None else 0
                 start = datetime(yr, s["month"], s["day"], hh, mm)
                 ev2.add("dtstart", to_utc(start))
                 ev2.add("dtend", to_utc(start + timedelta(minutes=30)))
-                if is_fanladen:
-                    # Fanladen: immer 1 Tag und 30 Minuten vorher erinnern
-                    add_alarm(ev2, summ, timedelta(days=-1))
-                    add_alarm(ev2, summ, timedelta(minutes=-30))
-                else:
-                    add_alarm(ev2, summ, timedelta(minutes=0))
-                    add_alarm(ev2, summ, timedelta(hours=-1))
+                if kind == "fanladen_open":
+                    add_alarm(ev2, summ, timedelta(0))          # genau beim Start
+                elif kind == "fanladen_deadline":
+                    add_alarm(ev2, summ, timedelta(hours=-2))   # 2 Stunden vor Schluss
+                else:  # Mitglieder-Vorverkauf mit Uhrzeit
+                    add_alarm(ev2, summ, timedelta(minutes=-15))
                     add_alarm(ev2, summ, timedelta(days=-1))
             else:
+                # Mitglieder-Vorverkauf ohne veroeffentlichte Uhrzeit -> ganztags
                 ev2.add("dtstart", d0)
                 ev2.add("dtend", d0 + timedelta(days=1))
+                add_alarm(ev2, summ, timedelta(hours=-15))   # ~09:00 am Vortag (1 Tag vorher)
                 add_alarm(ev2, summ, timedelta(hours=9))     # 09:00 am Tag selbst
-                add_alarm(ev2, summ, timedelta(hours=-15))   # 09:00 am Vortag
             cal.add_component(ev2)
 
     return cal
