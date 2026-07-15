@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – Deportivo de A Coruña · Heim (Test)
 DTSTART:20260801T163000Z
 DTEND:20260801T183000Z
-DTSTAMP:20260715T104619Z
+DTSTAMP:20260715T112235Z
 UID:3b608805616c@stpauli-tickets
 DESCRIPTION:Wettbewerb/Art: Testspiel\nTicket-Infos: https://www.fcstpauli
  .com/news/ticket-infos-testspiel-deportivo-de-a-coruna\n(automatisch erzeu
@@ -27,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Deportivo de A Coruña (Heim)
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
-DTSTAMP:20260715T104619Z
+DTSTAMP:20260715T112235Z
 UID:12f52ce593a7@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – Deportivo de A Coruña am Sat 01.08.2026 
  18:30\nInfos: https://www.fcstpauli.com/news/ticket-infos-testspiel-deport
@@ -47,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Kiel – St. Pauli · Auswärts
 DTSTART:20260814T163000Z
 DTEND:20260814T183000Z
-DTSTAMP:20260715T104619Z
+DTSTAMP:20260715T112235Z
 UID:13311bb165a4@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-ausw
  aertsspiel-holstein-kiel-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Kiel (Auswärts)
 DTSTART:20260721T130000Z
 DTEND:20260721T133000Z
-DTSTAMP:20260715T104619Z
+DTSTAMP:20260715T112235Z
 UID:e43404e68298@stpauli-tickets
 DESCRIPTION:Spiel: Kiel – St. Pauli am Fri 14.08.2026 18:30\nInfos: http
  s://www.fcstpauli.com/news/ticket-infos-auswaertsspiel-holstein-kiel-2627
@@ -80,7 +80,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Rot-Weiß Essen – St. Pauli · Auswärts (Pokal)
 DTSTART:20260823T160000Z
 DTEND:20260823T180000Z
-DTSTAMP:20260715T104619Z
+DTSTAMP:20260715T112235Z
 UID:720180c3ff16@stpauli-tickets
 DESCRIPTION:Wettbewerb/Art: Pokal\nTicket-Infos: https://www.stpauli-fanla
  den.de/2026/07/07/dfb-pokal-auswaertsspiel-bei-rot-weiss-essen-am-23-08-um
@@ -95,7 +95,7 @@ BEGIN:VEVENT
 SUMMARY:📝 Fanladen-Bestellung öffnet: Rot-Weiß Essen (Auswärts)
 DTSTART:20260710T100000Z
 DTEND:20260710T103000Z
-DTSTAMP:20260715T104619Z
+DTSTAMP:20260715T112235Z
 UID:7b2ccb728618@stpauli-tickets
 DESCRIPTION:Spiel: Rot-Weiß Essen – St. Pauli am Sun 23.08.2026 18:00\n
  Infos: https://www.stpauli-fanladen.de/2026/07/07/dfb-pokal-auswaertsspiel
@@ -110,7 +110,7 @@ BEGIN:VEVENT
 SUMMARY:⏳ Fanladen-Bestellschluss: Rot-Weiß Essen (Auswärts)
 DTSTART:20260719T100000Z
 DTEND:20260719T103000Z
-DTSTAMP:20260715T104619Z
+DTSTAMP:20260715T112235Z
 UID:9dd9c01e20d1@stpauli-tickets
 DESCRIPTION:Spiel: Rot-Weiß Essen – St. Pauli am Sun 23.08.2026 18:00\n
  Infos: https://www.stpauli-fanladen.de/2026/07/07/dfb-pokal-auswaertsspiel
