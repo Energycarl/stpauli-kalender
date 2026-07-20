@@ -3,7 +3,7 @@ name: Update St. Pauli Ticket-Kalender
 
 on:
   schedule:
-    - cron: '0 6 * * 1'      # jeden Montag 06:00 UTC (~07/08 Uhr DE)
+    - cron: '12 6 * * 1,3'   # Mo & Mi, 06:12 UTC (~08:12 Uhr DE-Sommerzeit)
   workflow_dispatch: {}       # manuell ausloesbar (fuer den ersten Testlauf)
 
 permissions:
