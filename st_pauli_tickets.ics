@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – Deportivo de A Coruña · Heim (Test)
 DTSTART:20260801T163000Z
 DTEND:20260801T183000Z
-DTSTAMP:20260720T111011Z
+DTSTAMP:20260722T121507Z
 UID:3b608805616c@stpauli-tickets
 DESCRIPTION:Wettbewerb/Art: Testspiel\nTicket-Infos: https://www.fcstpauli
  .com/news/ticket-infos-testspiel-deportivo-de-a-coruna\n(automatisch erzeu
@@ -27,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Deportivo de A Coruña (Heim)
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
-DTSTAMP:20260720T111011Z
+DTSTAMP:20260722T121507Z
 UID:12f52ce593a7@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – Deportivo de A Coruña am Sat 01.08.2026 
  18:30\nInfos: https://www.fcstpauli.com/news/ticket-infos-testspiel-deport
@@ -47,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – SpVgg Greuther Fürth · Heim
 DTSTART:20260809T113000Z
 DTEND:20260809T133000Z
-DTSTAMP:20260720T111011Z
+DTSTAMP:20260722T121507Z
 UID:b15032dcd82e@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
  spiel-greuther-fuerth-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: SpVgg Greuther Fürth (Heim)
 DTSTART:20260723T130000Z
 DTEND:20260723T133000Z
-DTSTAMP:20260720T111011Z
+DTSTAMP:20260722T121507Z
 UID:7e4872386a25@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – SpVgg Greuther Fürth am Sun 09.08.2026 1
  3:30\nInfos: https://www.fcstpauli.com/news/ticket-infos-heimspiel-greuthe
@@ -81,7 +81,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Kiel – St. Pauli · Auswärts
 DTSTART:20260814T163000Z
 DTEND:20260814T183000Z
-DTSTAMP:20260720T111011Z
+DTSTAMP:20260722T121507Z
 UID:13311bb165a4@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-ausw
  aertsspiel-holstein-kiel-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -95,7 +95,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Kiel (Auswärts)
 DTSTART:20260721T130000Z
 DTEND:20260721T133000Z
-DTSTAMP:20260720T111011Z
+DTSTAMP:20260722T121507Z
 UID:e43404e68298@stpauli-tickets
 DESCRIPTION:Spiel: Kiel – St. Pauli am Fri 14.08.2026 18:30\nInfos: http
  s://www.fcstpauli.com/news/ticket-infos-auswaertsspiel-holstein-kiel-2627
@@ -111,63 +111,75 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ St. Pauli – Meppen · Heim (Pokal)
-DTSTART:20260816T130000Z
-DTEND:20260816T150000Z
-DTSTAMP:20260720T111011Z
-UID:3da9255dc0ac@stpauli-tickets
-DESCRIPTION:Wettbewerb/Art: Pokal\nTicket-Infos: https://www.fcstpauli.com
- /news/ticket-infos-zum-dfb-pokal-playoff-der-1-frauen-gegen-den-sv-meppen\
- n(automatisch erzeugt aus fcstpauli.com)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Heute: St. Pauli – Meppen
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:⚽ Rot-Weiß Essen – St. Pauli · Auswärts (Pokal)
+SUMMARY:⚽ St. Pauli – Rot-Weiß Essen · Heim (Pokal)
 DTSTART:20260823T160000Z
 DTEND:20260823T180000Z
-DTSTAMP:20260720T111011Z
+DTSTAMP:20260722T121507Z
 UID:720180c3ff16@stpauli-tickets
-DESCRIPTION:Wettbewerb/Art: Pokal\nTicket-Infos: https://www.stpauli-fanla
- den.de/2026/07/07/dfb-pokal-auswaertsspiel-bei-rot-weiss-essen-am-23-08-um
- -18-uhr/\n(automatisch erzeugt aus fcstpauli.com)
+DESCRIPTION:Wettbewerb/Art: Pokal\nTicket-Infos: https://www.fcstpauli.com
+ /news/ticket-infos-dfb-pokal-rw-essen\n(automatisch erzeugt aus fcstpauli.
+ com)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Heute: Rot-Weiß Essen – St. Pauli
+DESCRIPTION:Heute: St. Pauli – Rot-Weiß Essen
 TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:📝 Fanladen-Bestellung öffnet: Rot-Weiß Essen (Auswärts)
-DTSTART:20260710T100000Z
-DTEND:20260710T103000Z
-DTSTAMP:20260720T111011Z
-UID:7b2ccb728618@stpauli-tickets
-DESCRIPTION:Spiel: Rot-Weiß Essen – St. Pauli am Sun 23.08.2026 18:00\n
- Infos: https://www.stpauli-fanladen.de/2026/07/07/dfb-pokal-auswaertsspiel
- -bei-rot-weiss-essen-am-23-08-um-18-uhr/
+SUMMARY:🎟️ Mitglieder-Vorverkauf: Rot-Weiß Essen (Heim)
+DTSTART:20260727T130000Z
+DTEND:20260727T133000Z
+DTSTAMP:20260722T121507Z
+UID:179dd02f9ab0@stpauli-tickets
+DESCRIPTION:Spiel: St. Pauli – Rot-Weiß Essen am Sun 23.08.2026 18:00\n
+ Infos: https://www.fcstpauli.com/news/ticket-infos-dfb-pokal-rw-essen
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:📝 Fanladen-Bestellung öffnet: Rot-Weiß Essen (Auswärts)
-TRIGGER:P0D
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: Rot-Weiß Essen (Heim)
+TRIGGER:-PT15M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: Rot-Weiß Essen (Heim)
+TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⏳ Fanladen-Bestellschluss: Rot-Weiß Essen (Auswärts)
-DTSTART:20260719T100000Z
-DTEND:20260719T103000Z
-DTSTAMP:20260720T111011Z
-UID:9dd9c01e20d1@stpauli-tickets
-DESCRIPTION:Spiel: Rot-Weiß Essen – St. Pauli am Sun 23.08.2026 18:00\n
- Infos: https://www.stpauli-fanladen.de/2026/07/07/dfb-pokal-auswaertsspiel
- -bei-rot-weiss-essen-am-23-08-um-18-uhr/
+SUMMARY:🎟️ Mitglieder-Vorverkauf: Rot-Weiß Essen (Heim)
+DTSTART:20260728T130000Z
+DTEND:20260728T133000Z
+DTSTAMP:20260722T121507Z
+UID:4c27d4a904c0@stpauli-tickets
+DESCRIPTION:Spiel: St. Pauli – Rot-Weiß Essen am Sun 23.08.2026 18:00\n
+ Infos: https://www.fcstpauli.com/news/ticket-infos-dfb-pokal-rw-essen
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:⏳ Fanladen-Bestellschluss: Rot-Weiß Essen (Auswärts)
-TRIGGER:-PT2H
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: Rot-Weiß Essen (Heim)
+TRIGGER:-PT15M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: Rot-Weiß Essen (Heim)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎟️ Mitglieder-Vorverkauf: Rot-Weiß Essen (Heim)
+DTSTART:20260729T130000Z
+DTEND:20260729T133000Z
+DTSTAMP:20260722T121507Z
+UID:a3dbdd709304@stpauli-tickets
+DESCRIPTION:Spiel: St. Pauli – Rot-Weiß Essen am Sun 23.08.2026 18:00\n
+ Infos: https://www.fcstpauli.com/news/ticket-infos-dfb-pokal-rw-essen
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: Rot-Weiß Essen (Heim)
+TRIGGER:-PT15M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: Rot-Weiß Essen (Heim)
+TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 END:VCALENDAR
