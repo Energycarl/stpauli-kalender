@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – Deportivo de A Coruña · Heim (Test)
 DTSTART:20260801T163000Z
 DTEND:20260801T183000Z
-DTSTAMP:20260722T121507Z
+DTSTAMP:20260727T155748Z
 UID:3b608805616c@stpauli-tickets
 DESCRIPTION:Wettbewerb/Art: Testspiel\nTicket-Infos: https://www.fcstpauli
  .com/news/ticket-infos-testspiel-deportivo-de-a-coruna\n(automatisch erzeu
@@ -27,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Deportivo de A Coruña (Heim)
 DTSTART;VALUE=DATE:20260709
 DTEND;VALUE=DATE:20260710
-DTSTAMP:20260722T121507Z
+DTSTAMP:20260727T155748Z
 UID:12f52ce593a7@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – Deportivo de A Coruña am Sat 01.08.2026 
  18:30\nInfos: https://www.fcstpauli.com/news/ticket-infos-testspiel-deport
@@ -47,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – SpVgg Greuther Fürth · Heim
 DTSTART:20260809T113000Z
 DTEND:20260809T133000Z
-DTSTAMP:20260722T121507Z
+DTSTAMP:20260727T155748Z
 UID:b15032dcd82e@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
  spiel-greuther-fuerth-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -61,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: SpVgg Greuther Fürth (Heim)
 DTSTART:20260723T130000Z
 DTEND:20260723T133000Z
-DTSTAMP:20260722T121507Z
+DTSTAMP:20260727T155748Z
 UID:7e4872386a25@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – SpVgg Greuther Fürth am Sun 09.08.2026 1
  3:30\nInfos: https://www.fcstpauli.com/news/ticket-infos-heimspiel-greuthe
@@ -81,7 +81,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Kiel – St. Pauli · Auswärts
 DTSTART:20260814T163000Z
 DTEND:20260814T183000Z
-DTSTAMP:20260722T121507Z
+DTSTAMP:20260727T155748Z
 UID:13311bb165a4@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-ausw
  aertsspiel-holstein-kiel-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -95,7 +95,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Kiel (Auswärts)
 DTSTART:20260721T130000Z
 DTEND:20260721T133000Z
-DTSTAMP:20260722T121507Z
+DTSTAMP:20260727T155748Z
 UID:e43404e68298@stpauli-tickets
 DESCRIPTION:Spiel: Kiel – St. Pauli am Fri 14.08.2026 18:30\nInfos: http
  s://www.fcstpauli.com/news/ticket-infos-auswaertsspiel-holstein-kiel-2627
@@ -114,7 +114,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – Rot-Weiß Essen · Heim (Pokal)
 DTSTART:20260823T160000Z
 DTEND:20260823T180000Z
-DTSTAMP:20260722T121507Z
+DTSTAMP:20260727T155748Z
 UID:720180c3ff16@stpauli-tickets
 DESCRIPTION:Wettbewerb/Art: Pokal\nTicket-Infos: https://www.fcstpauli.com
  /news/ticket-infos-dfb-pokal-rw-essen\n(automatisch erzeugt aus fcstpauli.
@@ -129,7 +129,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Rot-Weiß Essen (Heim)
 DTSTART:20260727T130000Z
 DTEND:20260727T133000Z
-DTSTAMP:20260722T121507Z
+DTSTAMP:20260727T155748Z
 UID:179dd02f9ab0@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – Rot-Weiß Essen am Sun 23.08.2026 18:00\n
  Infos: https://www.fcstpauli.com/news/ticket-infos-dfb-pokal-rw-essen
@@ -148,7 +148,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Rot-Weiß Essen (Heim)
 DTSTART:20260728T130000Z
 DTEND:20260728T133000Z
-DTSTAMP:20260722T121507Z
+DTSTAMP:20260727T155748Z
 UID:4c27d4a904c0@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – Rot-Weiß Essen am Sun 23.08.2026 18:00\n
  Infos: https://www.fcstpauli.com/news/ticket-infos-dfb-pokal-rw-essen
@@ -167,7 +167,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Rot-Weiß Essen (Heim)
 DTSTART:20260729T130000Z
 DTEND:20260729T133000Z
-DTSTAMP:20260722T121507Z
+DTSTAMP:20260727T155748Z
 UID:a3dbdd709304@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – Rot-Weiß Essen am Sun 23.08.2026 18:00\n
  Infos: https://www.fcstpauli.com/news/ticket-infos-dfb-pokal-rw-essen
