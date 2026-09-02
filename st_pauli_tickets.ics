@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – 1. FC Kaiserslautern · Heim
 DTSTART:20260830T113000Z
 DTEND:20260830T133000Z
-DTSTAMP:20260831T134547Z
+DTSTAMP:20260902T111542Z
 UID:8ad0f26f8730@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
  spiel-kaiserslautern-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: 1. FC Kaiserslautern (Heim)
 DTSTART:20260806T130000Z
 DTEND:20260806T133000Z
-DTSTAMP:20260831T134547Z
+DTSTAMP:20260902T111542Z
 UID:a47112d9ba8f@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – 1. FC Kaiserslautern am Sun 30.08.2026 13
  :30\nInfos: https://www.fcstpauli.com/news/ticket-infos-heimspiel-kaisersl
@@ -46,7 +46,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – ? · Heim
 DTSTART:20260904T163000Z
 DTEND:20260904T183000Z
-DTSTAMP:20260831T134547Z
+DTSTAMP:20260902T111542Z
 UID:acecaa54aadd@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-zum-
  spiel-bei-arminia-bielefeld-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -60,7 +60,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: ? (Heim)
 DTSTART:20260811T130000Z
 DTEND:20260811T133000Z
-DTSTAMP:20260831T134547Z
+DTSTAMP:20260902T111542Z
 UID:7b7b50f260c2@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – ? am Fri 04.09.2026 18:30\nInfos: https:/
  /www.fcstpauli.com/news/ticket-infos-zum-spiel-bei-arminia-bielefeld-2627
@@ -79,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – VfL Wolfsburg · Heim
 DTSTART:20260912T183000Z
 DTEND:20260912T203000Z
-DTSTAMP:20260831T134547Z
+DTSTAMP:20260902T111542Z
 UID:40121bffd106@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
  spiel-vfl-wolfsburg-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -93,7 +93,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: VfL Wolfsburg (Heim)
 DTSTART:20260820T130000Z
 DTEND:20260820T133000Z
-DTSTAMP:20260831T134547Z
+DTSTAMP:20260902T111542Z
 UID:9bba6acc26c4@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – VfL Wolfsburg am Sat 12.09.2026 20:30\nIn
  fos: https://www.fcstpauli.com/news/ticket-infos-heimspiel-vfl-wolfsburg-2
@@ -113,7 +113,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Cottbus – St. Pauli · Auswärts
 DTSTART:20260920T113000Z
 DTEND:20260920T133000Z
-DTSTAMP:20260831T134547Z
+DTSTAMP:20260902T111542Z
 UID:5cba31cff69c@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-ausw
  aertsspiel-energie-cottbus-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -127,7 +127,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Cottbus (Auswärts)
 DTSTART:20260901T130000Z
 DTEND:20260901T133000Z
-DTSTAMP:20260831T134547Z
+DTSTAMP:20260902T111542Z
 UID:3c6e37e5b11d@stpauli-tickets
 DESCRIPTION:Spiel: Cottbus – St. Pauli am Sun 20.09.2026 13:30\nInfos: h
  ttps://www.fcstpauli.com/news/ticket-infos-auswaertsspiel-energie-cottbus-
