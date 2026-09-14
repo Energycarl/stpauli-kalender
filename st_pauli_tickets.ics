@@ -9,44 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VEVENT
-SUMMARY:⚽ St. Pauli – VfL Wolfsburg · Heim
-DTSTART:20260912T183000Z
-DTEND:20260912T203000Z
-DTSTAMP:20260909T112022Z
-UID:40121bffd106@stpauli-tickets
-DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
- spiel-vfl-wolfsburg-2627\n(automatisch erzeugt aus fcstpauli.com)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Heute: St. Pauli – VfL Wolfsburg
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎟️ Mitglieder-Vorverkauf: VfL Wolfsburg (Heim)
-DTSTART:20260820T130000Z
-DTEND:20260820T133000Z
-DTSTAMP:20260909T112022Z
-UID:9bba6acc26c4@stpauli-tickets
-DESCRIPTION:Spiel: St. Pauli – VfL Wolfsburg am Sat 12.09.2026 20:30\nIn
- fos: https://www.fcstpauli.com/news/ticket-infos-heimspiel-vfl-wolfsburg-2
- 627
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎟️ Mitglieder-Vorverkauf: VfL Wolfsburg (Heim)
-TRIGGER:-PT15M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎟️ Mitglieder-Vorverkauf: VfL Wolfsburg (Heim)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:⚽ ? – St. Pauli · Auswärts
 DTSTART:20260915T130000Z
 DTEND:20260915T150000Z
-DTSTAMP:20260909T112022Z
+DTSTAMP:20260914T124246Z
 UID:5e7ed5ef6a65@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-zum-
  auswaertsspiel-bei-hannover-96-2627\n(automatisch erzeugt aus fcstpauli.co
@@ -61,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: ? (Auswärts)
 DTSTART:20260915T130000Z
 DTEND:20260915T133000Z
-DTSTAMP:20260909T112022Z
+DTSTAMP:20260914T124246Z
 UID:52749a17adcd@stpauli-tickets
 DESCRIPTION:Spiel: ? – St. Pauli am Tue 15.09.2026 15:00\nInfos: https:/
  /www.fcstpauli.com/news/ticket-infos-zum-auswaertsspiel-bei-hannover-96-26
@@ -81,7 +47,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ Cottbus – St. Pauli · Auswärts
 DTSTART:20260920T113000Z
 DTEND:20260920T133000Z
-DTSTAMP:20260909T112022Z
+DTSTAMP:20260914T124246Z
 UID:5cba31cff69c@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-ausw
  aertsspiel-energie-cottbus-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -95,7 +61,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Cottbus (Auswärts)
 DTSTART:20260901T130000Z
 DTEND:20260901T133000Z
-DTSTAMP:20260909T112022Z
+DTSTAMP:20260914T124246Z
 UID:3c6e37e5b11d@stpauli-tickets
 DESCRIPTION:Spiel: Cottbus – St. Pauli am Sun 20.09.2026 13:30\nInfos: h
  ttps://www.fcstpauli.com/news/ticket-infos-auswaertsspiel-energie-cottbus-
@@ -108,6 +74,58 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🎟️ Mitglieder-Vorverkauf: Cottbus (Auswärts)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ St. Pauli – KSC · Heim
+DTSTART:20261011T113000Z
+DTEND:20261011T133000Z
+DTSTAMP:20260914T124246Z
+UID:e6941b348cdb@stpauli-tickets
+DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
+ spiel-karlsruher-sc-2627\n(automatisch erzeugt aus fcstpauli.com)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Heute: St. Pauli – KSC
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+DTSTAMP:20260914T124246Z
+UID:3575eb470e5c@stpauli-tickets
+DESCRIPTION:Spiel: St. Pauli – KSC am Sun 11.10.2026 13:30\nInfos: https
+ ://www.fcstpauli.com/news/ticket-infos-heimspiel-karlsruher-sc-2627
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
+DTSTART:20260917T130000Z
+DTEND:20260917T133000Z
+DTSTAMP:20260914T124246Z
+UID:967032f146c4@stpauli-tickets
+DESCRIPTION:Spiel: St. Pauli – KSC am Sun 11.10.2026 13:30\nInfos: https
+ ://www.fcstpauli.com/news/ticket-infos-heimspiel-karlsruher-sc-2627
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
+TRIGGER:-PT15M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
