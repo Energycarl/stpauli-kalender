@@ -9,45 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VEVENT
-SUMMARY:⚽ ? – St. Pauli · Auswärts
-DTSTART:20260915T130000Z
-DTEND:20260915T150000Z
-DTSTAMP:20260916T112933Z
-UID:5e7ed5ef6a65@stpauli-tickets
-DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-zum-
- auswaertsspiel-bei-hannover-96-2627\n(automatisch erzeugt aus fcstpauli.co
- m)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Heute: ? – St. Pauli
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎟️ Mitglieder-Vorverkauf: ? (Auswärts)
-DTSTART:20260915T130000Z
-DTEND:20260915T133000Z
-DTSTAMP:20260916T112933Z
-UID:52749a17adcd@stpauli-tickets
-DESCRIPTION:Spiel: ? – St. Pauli am Tue 15.09.2026 15:00\nInfos: https:/
- /www.fcstpauli.com/news/ticket-infos-zum-auswaertsspiel-bei-hannover-96-26
- 27
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎟️ Mitglieder-Vorverkauf: ? (Auswärts)
-TRIGGER:-PT15M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎟️ Mitglieder-Vorverkauf: ? (Auswärts)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:⚽ Cottbus – St. Pauli · Auswärts
 DTSTART:20260920T113000Z
 DTEND:20260920T133000Z
-DTSTAMP:20260916T112933Z
+DTSTAMP:20260921T124514Z
 UID:5cba31cff69c@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-ausw
  aertsspiel-energie-cottbus-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -61,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Cottbus (Auswärts)
 DTSTART:20260901T130000Z
 DTEND:20260901T133000Z
-DTSTAMP:20260916T112933Z
+DTSTAMP:20260921T124514Z
 UID:3c6e37e5b11d@stpauli-tickets
 DESCRIPTION:Spiel: Cottbus – St. Pauli am Sun 20.09.2026 13:30\nInfos: h
  ttps://www.fcstpauli.com/news/ticket-infos-auswaertsspiel-energie-cottbus-
@@ -78,10 +43,25 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:⚽ St. Pauli – Borussia Mönchengladbach · Heim (Test)
+DTSTART:20261003T133000Z
+DTEND:20261003T153000Z
+DTSTAMP:20260921T124514Z
+UID:6786f6d8fcf5@stpauli-tickets
+DESCRIPTION:Wettbewerb/Art: Testspiel\nTicket-Infos: https://www.fcstpauli
+ .com/news/ticket-infos-testspiel-gegen-borussia-moenchengladbach-2627\n(au
+ tomatisch erzeugt aus fcstpauli.com)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Heute: St. Pauli – Borussia Mönchengladbach
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – KSC · Heim
 DTSTART:20261011T113000Z
 DTEND:20261011T133000Z
-DTSTAMP:20260916T112933Z
+DTSTAMP:20260921T124514Z
 UID:e6941b348cdb@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
  spiel-karlsruher-sc-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -95,7 +75,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
-DTSTAMP:20260916T112933Z
+DTSTAMP:20260921T124514Z
 UID:3575eb470e5c@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – KSC am Sun 11.10.2026 13:30\nInfos: https
  ://www.fcstpauli.com/news/ticket-infos-heimspiel-karlsruher-sc-2627
@@ -114,7 +94,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
 DTSTART:20260917T130000Z
 DTEND:20260917T133000Z
-DTSTAMP:20260916T112933Z
+DTSTAMP:20260921T124514Z
 UID:967032f146c4@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – KSC am Sun 11.10.2026 13:30\nInfos: https
  ://www.fcstpauli.com/news/ticket-infos-heimspiel-karlsruher-sc-2627
@@ -133,7 +113,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – ? · Heim
 DTSTART:20261023T163000Z
 DTEND:20261023T183000Z
-DTSTAMP:20260916T112933Z
+DTSTAMP:20260921T124514Z
 UID:87441ce90af9@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-ausw
  aertsspiel-sv-darmstadt-98-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -147,7 +127,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: ? (Heim)
 DTSTART:20260922T130000Z
 DTEND:20260922T133000Z
-DTSTAMP:20260916T112933Z
+DTSTAMP:20260921T124514Z
 UID:2c6a19fd34cb@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – ? am Fri 23.10.2026 18:30\nInfos: https:/
  /www.fcstpauli.com/news/ticket-infos-auswaertsspiel-sv-darmstadt-98-2627
