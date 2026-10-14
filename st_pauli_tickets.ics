@@ -9,10 +9,62 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VEVENT
+SUMMARY:⚽ St. Pauli – KSC · Heim
+DTSTART:20261011T113000Z
+DTEND:20261011T133000Z
+DTSTAMP:20261014T114913Z
+UID:e6941b348cdb@stpauli-tickets
+DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
+ spiel-karlsruher-sc-2627\n(automatisch erzeugt aus fcstpauli.com)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Heute: St. Pauli – KSC
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+DTSTAMP:20261014T114913Z
+UID:3575eb470e5c@stpauli-tickets
+DESCRIPTION:Spiel: St. Pauli – KSC am Sun 11.10.2026 13:30\nInfos: https
+ ://www.fcstpauli.com/news/ticket-infos-heimspiel-karlsruher-sc-2627
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
+DTSTART:20260917T130000Z
+DTEND:20260917T133000Z
+DTSTAMP:20261014T114913Z
+UID:967032f146c4@stpauli-tickets
+DESCRIPTION:Spiel: St. Pauli – KSC am Sun 11.10.2026 13:30\nInfos: https
+ ://www.fcstpauli.com/news/ticket-infos-heimspiel-karlsruher-sc-2627
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
+TRIGGER:-PT15M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: KSC (Heim)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – ? · Heim
 DTSTART:20261023T163000Z
 DTEND:20261023T183000Z
-DTSTAMP:20261012T152005Z
+DTSTAMP:20261014T114913Z
 UID:87441ce90af9@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-ausw
  aertsspiel-sv-darmstadt-98-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -26,7 +78,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: ? (Heim)
 DTSTART:20260922T130000Z
 DTEND:20260922T133000Z
-DTSTAMP:20261012T152005Z
+DTSTAMP:20261014T114913Z
 UID:2c6a19fd34cb@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – ? am Fri 23.10.2026 18:30\nInfos: https:/
  /www.fcstpauli.com/news/ticket-infos-auswaertsspiel-sv-darmstadt-98-2627
@@ -42,10 +94,44 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:⚽ St. Pauli – 1. FC Nürnberg · Heim
+DTSTART:20261101T123000Z
+DTEND:20261101T143000Z
+DTSTAMP:20261014T114913Z
+UID:2689eb8e29b0@stpauli-tickets
+DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
+ spiel-nuernberg-2627\n(automatisch erzeugt aus fcstpauli.com)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Heute: St. Pauli – 1. FC Nürnberg
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎟️ Mitglieder-Vorverkauf: 1. FC Nürnberg (Heim)
+DTSTART:20261001T130000Z
+DTEND:20261001T133000Z
+DTSTAMP:20261014T114913Z
+UID:044e2707475a@stpauli-tickets
+DESCRIPTION:Spiel: St. Pauli – 1. FC Nürnberg am Sun 01.11.2026 13:30\n
+ Infos: https://www.fcstpauli.com/news/ticket-infos-heimspiel-nuernberg-262
+ 7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: 1. FC Nürnberg (Heim)
+TRIGGER:-PT15M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: 1. FC Nürnberg (Heim)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – ? · Heim
 DTSTART:20261108T123000Z
 DTEND:20261108T143000Z
-DTSTAMP:20261012T152005Z
+DTSTAMP:20261014T114913Z
 UID:2e2e37677654@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-ausw
  aertsspiel-magdeburg-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -59,7 +145,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: ? (Heim)
 DTSTART:20261006T130000Z
 DTEND:20261006T133000Z
-DTSTAMP:20261012T152005Z
+DTSTAMP:20261014T114913Z
 UID:e74b8af0f11d@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – ? am Sun 08.11.2026 13:30\nInfos: https:/
  /www.fcstpauli.com/news/ticket-infos-auswaertsspiel-magdeburg-2627
@@ -72,6 +158,54 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🎟️ Mitglieder-Vorverkauf: ? (Heim)
 TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ St. Pauli – VfL Bochum · Heim
+DTSTART:20261121T193000Z
+DTEND:20261121T213000Z
+DTSTAMP:20261014T114913Z
+UID:5749c679e712@stpauli-tickets
+DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
+ spiel-vfl-bochum-2627\n(automatisch erzeugt aus fcstpauli.com)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Heute: St. Pauli – VfL Bochum
+TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎟️ Mitglieder-Vorverkauf: VfL Bochum (Heim)
+DTSTART:20261015T130000Z
+DTEND:20261015T133000Z
+DTSTAMP:20261014T114913Z
+UID:69a015b14441@stpauli-tickets
+DESCRIPTION:Spiel: St. Pauli – VfL Bochum am Sat 21.11.2026 20:30\nInfos
+ : https://www.fcstpauli.com/news/ticket-infos-heimspiel-vfl-bochum-2627
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: VfL Bochum (Heim)
+TRIGGER:-PT15M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: VfL Bochum (Heim)
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Dresden mit Sonderzug – St. Pauli · Auswärts
+DTSTART:20261128T143000Z
+DTEND:20261128T163000Z
+DTSTAMP:20261014T114913Z
+UID:f878fe2a35f7@stpauli-tickets
+DESCRIPTION:Ticket-Infos: https://www.stpauli-fanladen.de/2026/10/13/auswa
+ ertsspiel-in-dresden-mit-sonderzug-am-28-11-26-um-1300/\n(automatisch erze
+ ugt aus fcstpauli.com)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Heute: Dresden mit Sonderzug – St. Pauli
+TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 END:VCALENDAR
