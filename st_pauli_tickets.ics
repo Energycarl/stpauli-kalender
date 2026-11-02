@@ -12,7 +12,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – 1. FC Nürnberg · Heim
 DTSTART:20261101T123000Z
 DTEND:20261101T143000Z
-DTSTAMP:20261028T125025Z
+DTSTAMP:20261102T154513Z
 UID:2689eb8e29b0@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
  spiel-nuernberg-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -26,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: 1. FC Nürnberg (Heim)
 DTSTART:20261001T130000Z
 DTEND:20261001T133000Z
-DTSTAMP:20261028T125025Z
+DTSTAMP:20261102T154513Z
 UID:044e2707475a@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – 1. FC Nürnberg am Sun 01.11.2026 13:30\n
  Infos: https://www.fcstpauli.com/news/ticket-infos-heimspiel-nuernberg-262
@@ -46,7 +46,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – ? · Heim
 DTSTART:20261108T123000Z
 DTEND:20261108T143000Z
-DTSTAMP:20261028T125025Z
+DTSTAMP:20261102T154513Z
 UID:2e2e37677654@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-ausw
  aertsspiel-magdeburg-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -60,7 +60,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: ? (Heim)
 DTSTART:20261006T130000Z
 DTEND:20261006T133000Z
-DTSTAMP:20261028T125025Z
+DTSTAMP:20261102T154513Z
 UID:e74b8af0f11d@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – ? am Sun 08.11.2026 13:30\nInfos: https:/
  /www.fcstpauli.com/news/ticket-infos-auswaertsspiel-magdeburg-2627
@@ -79,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – VfL Bochum · Heim
 DTSTART:20261121T193000Z
 DTEND:20261121T213000Z
-DTSTAMP:20261028T125025Z
+DTSTAMP:20261102T154513Z
 UID:5749c679e712@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
  spiel-vfl-bochum-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -93,7 +93,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: VfL Bochum (Heim)
 DTSTART:20261015T130000Z
 DTEND:20261015T133000Z
-DTSTAMP:20261028T125025Z
+DTSTAMP:20261102T154513Z
 UID:69a015b14441@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – VfL Bochum am Sat 21.11.2026 20:30\nInfos
  : https://www.fcstpauli.com/news/ticket-infos-heimspiel-vfl-bochum-2627
@@ -109,18 +109,37 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ Dresden mit Sonderzug – St. Pauli · Auswärts
-DTSTART:20261128T143000Z
-DTEND:20261128T163000Z
-DTSTAMP:20261028T125025Z
+SUMMARY:⚽ St. Pauli – Dresden mit Sonderzug · Heim
+DTSTART:20261128T120000Z
+DTEND:20261128T140000Z
+DTSTAMP:20261102T154513Z
 UID:f878fe2a35f7@stpauli-tickets
-DESCRIPTION:Ticket-Infos: https://www.stpauli-fanladen.de/2026/10/13/auswa
- ertsspiel-in-dresden-mit-sonderzug-am-28-11-26-um-1300/\n(automatisch erze
- ugt aus fcstpauli.com)
+DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-ausw
+ aertsspiel-dynamo-dresden-2627\n(automatisch erzeugt aus fcstpauli.com)
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Heute: Dresden mit Sonderzug – St. Pauli
+DESCRIPTION:Heute: St. Pauli – Dresden mit Sonderzug
 TRIGGER:-PT4H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🎟️ Mitglieder-Vorverkauf: Dresden mit Sonderzug (Heim)
+DTSTART:20261104T140000Z
+DTEND:20261104T143000Z
+DTSTAMP:20261102T154513Z
+UID:bbcfad4aba3f@stpauli-tickets
+DESCRIPTION:Spiel: St. Pauli – Dresden mit Sonderzug am Sat 28.11.2026 1
+ 3:00\nInfos: https://www.fcstpauli.com/news/ticket-infos-auswaertsspiel-dy
+ namo-dresden-2627
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: Dresden mit Sonderzug (Heim)
+TRIGGER:-PT15M
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎟️ Mitglieder-Vorverkauf: Dresden mit Sonderzug (Heim)
+TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 END:VCALENDAR
