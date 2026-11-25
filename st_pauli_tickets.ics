@@ -9,43 +9,10 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VEVENT
-SUMMARY:⚽ St. Pauli – VfL Bochum · Heim
-DTSTART:20261121T193000Z
-DTEND:20261121T213000Z
-DTSTAMP:20261123T180138Z
-UID:5749c679e712@stpauli-tickets
-DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
- spiel-vfl-bochum-2627\n(automatisch erzeugt aus fcstpauli.com)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Heute: St. Pauli – VfL Bochum
-TRIGGER:-PT4H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:🎟️ Mitglieder-Vorverkauf: VfL Bochum (Heim)
-DTSTART:20261015T130000Z
-DTEND:20261015T133000Z
-DTSTAMP:20261123T180138Z
-UID:69a015b14441@stpauli-tickets
-DESCRIPTION:Spiel: St. Pauli – VfL Bochum am Sat 21.11.2026 20:30\nInfos
- : https://www.fcstpauli.com/news/ticket-infos-heimspiel-vfl-bochum-2627
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎟️ Mitglieder-Vorverkauf: VfL Bochum (Heim)
-TRIGGER:-PT15M
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🎟️ Mitglieder-Vorverkauf: VfL Bochum (Heim)
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – Dresden mit Sonderzug · Heim
 DTSTART:20261128T120000Z
 DTEND:20261128T140000Z
-DTSTAMP:20261123T180138Z
+DTSTAMP:20261125T171017Z
 UID:f878fe2a35f7@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-ausw
  aertsspiel-dynamo-dresden-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -59,7 +26,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Dresden mit Sonderzug (Heim)
 DTSTART:20261104T140000Z
 DTEND:20261104T143000Z
-DTSTAMP:20261123T180138Z
+DTSTAMP:20261125T171017Z
 UID:bbcfad4aba3f@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – Dresden mit Sonderzug am Sat 28.11.2026 1
  3:00\nInfos: https://www.fcstpauli.com/news/ticket-infos-auswaertsspiel-dy
@@ -79,7 +46,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – Heidenheim · Heim
 DTSTART:20261206T123000Z
 DTEND:20261206T143000Z
-DTSTAMP:20261123T180138Z
+DTSTAMP:20261125T171017Z
 UID:37325efd74f4@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
  spiel-heidenheim-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -93,7 +60,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Heidenheim (Heim)
 DTSTART:20261112T140000Z
 DTEND:20261112T143000Z
-DTSTAMP:20261123T180138Z
+DTSTAMP:20261125T171017Z
 UID:4ae5ea667e17@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – Heidenheim am Sun 06.12.2026 13:30\nInfos
  : https://www.fcstpauli.com/news/ticket-infos-heimspiel-heidenheim-2627
@@ -112,7 +79,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – ? · Heim
 DTSTART:20261213T123000Z
 DTEND:20261213T143000Z
-DTSTAMP:20261123T180138Z
+DTSTAMP:20261125T171017Z
 UID:3afc7339754e@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-zum-
  spiel-beim-vfl-osnabrueck-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -126,7 +93,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: ? (Heim)
 DTSTART:20261117T140000Z
 DTEND:20261117T143000Z
-DTSTAMP:20261123T180138Z
+DTSTAMP:20261125T171017Z
 UID:9a45bc490e0f@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – ? am Sun 13.12.2026 13:30\nInfos: https:/
  /www.fcstpauli.com/news/ticket-infos-zum-spiel-beim-vfl-osnabrueck-2627
@@ -145,7 +112,7 @@ BEGIN:VEVENT
 SUMMARY:⚽ St. Pauli – Hertha BSC · Heim
 DTSTART:20261219T120000Z
 DTEND:20261219T140000Z
-DTSTAMP:20261123T180138Z
+DTSTAMP:20261125T171017Z
 UID:7f55564499ee@stpauli-tickets
 DESCRIPTION:Ticket-Infos: https://www.fcstpauli.com/news/ticket-infos-heim
  spiel-hertha-bsc-2627\n(automatisch erzeugt aus fcstpauli.com)
@@ -159,7 +126,7 @@ BEGIN:VEVENT
 SUMMARY:🎟️ Mitglieder-Vorverkauf: Hertha BSC (Heim)
 DTSTART:20261119T140000Z
 DTEND:20261119T143000Z
-DTSTAMP:20261123T180138Z
+DTSTAMP:20261125T171017Z
 UID:aa692af0cb99@stpauli-tickets
 DESCRIPTION:Spiel: St. Pauli – Hertha BSC am Sat 19.12.2026 13:00\nInfos
  : https://www.fcstpauli.com/news/ticket-infos-heimspiel-hertha-bsc-2627
@@ -172,6 +139,21 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🎟️ Mitglieder-Vorverkauf: Hertha BSC (Heim)
 TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ St. Pauli – FC Luzern · Heim (Test)
+DTSTART:20270109T143000Z
+DTEND:20270109T163000Z
+DTSTAMP:20261125T171017Z
+UID:33ca27be0c8c@stpauli-tickets
+DESCRIPTION:Wettbewerb/Art: Testspiel\nTicket-Infos: https://www.fcstpauli
+ .com/news/ticket-infos-testspiel-gegen-fc-luzern-2627\n(automatisch erzeug
+ t aus fcstpauli.com)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Heute: St. Pauli – FC Luzern
+TRIGGER:-PT4H
 END:VALARM
 END:VEVENT
 END:VCALENDAR
